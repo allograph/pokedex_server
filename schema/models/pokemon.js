@@ -1,4 +1,4 @@
-var knex = require('../database/connection');
+var knex = require('../../database/connection');
 
 export class Pokemon {
   pokemons(args) {
